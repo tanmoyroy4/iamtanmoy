@@ -1,19 +1,15 @@
 
-
 *{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
-
-margin: 0px;
-/* padding: 0px; */
-box-sizing: border-box;
+    margin: 0px;
+    box-sizing: border-box;
 }
 .banner{
     padding: 30px 30px 0px 150px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-   
+    align-items: center;  
 }
 .banner-container{
     max-width: 500px;  
@@ -38,15 +34,13 @@ box-sizing: border-box;
     background: yellow;
 }
 .picture{
-    margin-right: 100px;
-    /* width: 500px; */
+    margin-right: 100px;  
 }
 
-/*Main Related Style*/      
 .header{
     background-color: #E554731A;
 }
-/* featured-flowers Styles */
+
 .heading-title{
     text-align: center;
     font-size: 40px;
@@ -63,7 +57,6 @@ box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* gap: 45px; */
 }
 .pic1{
     max-width: 300px;
@@ -90,42 +83,40 @@ box-sizing: border-box;
 main div{
     margin-top: 90px;
 }
-/* .help-line{
+.help-line{
     width: 1922px;
     height: 550px;
     border-radius: 8px;
     display: flex;
     background: #2727270D;
-} */
-/* Sale Up Page Styles Start */
+}
 .sale-heading{
     color: #272727;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-size: 40px;
+    font-weight: 800;
 }
 .sale-up{
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 1922px;
+    height: 620px;
     display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
 }
-    
 .saleup-img{
     width: 318px;
     height: 420px;
     margin: 100px 429px 0px 100;
-
 }
-/* Sale Up Page Styles End */
-
 .flower-img{
     margin: 100px 10px 100px 210px;
     display: flex;
     gap: 24px;
 }
 
-
-
-/* Email Subscribe Styles  */
+/* Email ybe Styles  */
 
 .subscribe{
     margin-bottom: 100px;
@@ -145,25 +136,23 @@ line-height: normal;
 }
 
 
-.subscribe__title {
-	font-weight: bold;
+.button-title{
+	font-weight: bolder;
 	font-size: 40px;
-	margin-bottom: 18px;
+	margin-bottom: 21px;
 }
-
-.form {
+.lets-sub {
 	margin-bottom: 25px;
 }
-
-.form__email {
+.email {
 	padding: 20px 25px;
 	border-radius: 5px;
- 	border: 1px solid #CAD3DB;
+ 	border: 1px solid #6aade7;
 	width: 700px;
 	font-size: 18px;
 	color: #0F121F;
 }
-.form__button {
+.button {
 	padding: 10px;
 	border: none;
 	width: 150px;
@@ -173,30 +162,44 @@ line-height: normal;
 	color: white;
     background: #E55473;
 }
-
-
-
-
-nav {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    margin: 126px 831px 263px 832px;
-}
-.nav-title{
-    color: #181818;
-    font-size: 48px;
-    font-weight: 800;
-}
-nav a{
+div a{
     text-decoration: none;
     color: #474747;
 }
-/*text primary*/
 
-.text-primary{
+.text-color{
+    color: #fd6e0a;
+}
+.footer{
+    background-color: #272727;
+    color: white;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.footer h3{
+    font-size: 48px;
+    font-weight: 800;
+}
+.namestyle{
     color: #fd6e0a;
 }
 
-
-
+.headingo{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.descri{
+    display: flex;
+    width: 594px;
+}
+.buttom{
+    display: inline-flex;
+    margin-top: 30px;
+    padding: 20px 43px;
+    border-radius: 8px;
+    font-size: 32px;
+    background: #E55473;
+}
